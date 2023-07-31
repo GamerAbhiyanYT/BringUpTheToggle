@@ -36,7 +36,7 @@ TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextStrokeTransparency = 0.000
 TextButton.TextWrapped = true
 TextButton.MouseButton1Down:Connect(function()
-	game:GetService("VirtualInputManager"):SendKeyEvent(true, "Q" , false , game)
+	game:GetService("VirtualInputManager"):SendKeyEvent(true, "R" , false , game)
 end)
 
 UICorner_2.Parent = TextButton
